@@ -1,0 +1,19 @@
+# --- core (everything needed to run the tests and the offline demo) ---
+langchain-core>=1.0
+langchain-text-splitters>=1.0
+langchain-chroma>=1.0
+chromadb>=1.0
+numpy
+pytest
+streamlit>=1.40
+pandas
+
+# --- pick ONE real provider stack (uncomment) ---
+# Local, free, no API key (what the README recommends):
+#   langchain-huggingface
+#   sentence-transformers
+#   transformers>=4.56
+#   torch
+#   accelerate
+# Ollama:   langchain-ollama
+# OpenAI:   langchain-openai

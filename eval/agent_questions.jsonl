@@ -1,0 +1,4 @@
+{"id": "a1", "type": "multi_step", "question": "I have worked full-time at Meridian Labs for 4 years. I want vacation from 2026-07-06 to 2026-07-17. How many working days is that, and how many vacation days remain from my annual entitlement?", "gold_sources": [], "keywords": ["10", "17"]}
+{"id": "a2", "type": "multi_step", "question": "What is the maximum I can be reimbursed for 3 nights in a London hotel plus 4 days of international meal allowance?", "gold_sources": [], "keywords": ["1,030|1030"]}
+{"id": "a3", "type": "multi_step", "question": "I was on call for 6 weeks. How much on-call pay do I get, and how many hours of time off in lieu do I earn for 4 hours of incident work outside core hours?", "gold_sources": [], "keywords": ["1,500|1500", "6 hours|six hours"]}
+{"id": "a4", "type": "multi_step", "question": "What is the total of the referral bonus and the yearly learning budget?", "gold_sources": [], "keywords": ["3,500|3500"]}

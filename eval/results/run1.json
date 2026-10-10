@@ -1,0 +1,311 @@
+{
+  "summary": {
+    "hit@1": 1.0,
+    "hit@2": 1.0,
+    "hit@4": 1.0,
+    "ctx@1": 0.8947368421052632,
+    "ctx@2": 1.0,
+    "ctx@4": 1.0,
+    "mrr@4": 1.0,
+    "answer_accuracy": 0.8421052631578947,
+    "false_refusal_rate": 0.15789473684210525,
+    "refusal_accuracy": 0.8,
+    "acc[factual]": 0.8666666666666667,
+    "acc[paraphrase]": 0.75
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "type": "factual",
+      "question": "How many vacation days do full-time employees get per year?",
+      "answer": "25 days",
+      "sources": [
+        "01_leave_policy.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q02",
+      "type": "factual",
+      "question": "How far in advance must I request more than five consecutive days off?",
+      "answer": "According to the provided context, requests covering more than 5 consecutive working days must be submitted at least 14 days in advance.",
+      "sources": [
+        "01_leave_policy.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q03",
+      "type": "factual",
+      "question": "How many unused vacation days can be carried over, and until when?",
+      "answer": "According to the provided information, up to 5 unused vacation days may be carried over into the next calendar year. These carried-over days must be used by March 31st, after which they expire without compensation.",
+      "sources": [
+        "01_leave_policy.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q04",
+      "type": "factual",
+      "question": "From which day of sick leave is a doctor's note required?",
+      "answer": "According to the context, a doctor's note is required from the 4th consecutive sick day.",
+      "sources": [
+        "01_leave_policy.md",
+        "05_remote_work.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q05",
+      "type": "factual",
+      "question": "How much parental leave do primary caregivers get?",
+      "answer": "16 weeks",
+      "sources": [
+        "01_leave_policy.md",
+        "06_onboarding_and_performance.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q06",
+      "type": "factual",
+      "question": "What is the daily meal allowance on international business trips?",
+      "answer": "€70 [1]",
+      "sources": [
+        "02_expenses_and_travel.md",
+        "05_remote_work.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q07",
+      "type": "factual",
+      "question": "What is the hotel price cap per night in London?",
+      "answer": "Based on the provided information, the hotel price cap per night in London is €250. [1]",
+      "sources": [
+        "02_expenses_and_travel.md",
+        "05_remote_work.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q08",
+      "type": "factual",
+      "question": "Within how many days must an expense report be submitted?",
+      "answer": "According to the provided information, an expense report must be submitted within 30 days of the expense date using the Spendly app.",
+      "sources": [
+        "02_expenses_and_travel.md",
+        "01_leave_policy.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q09",
+      "type": "factual",
+      "question": "What is the minimum password length?",
+      "answer": "According to the information provided in passage [1], the minimum password length required for all employees is 14 characters.",
+      "sources": [
+        "03_security_policy.md",
+        "06_onboarding_and_performance.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q10",
+      "type": "factual",
+      "question": "How quickly must a lost laptop be reported?",
+      "answer": "According to the information security policy, a lost or stolen device should be reported to security@meridianlabs.example within 1 hour of noticing the loss.",
+      "sources": [
+        "03_security_policy.md",
+        "06_onboarding_and_performance.md",
+        "04_oncall_and_incidents.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q11",
+      "type": "factual",
+      "question": "How much is the weekly on-call compensation?",
+      "answer": "I don't know based on the provided documents.",
+      "sources": [
+        "04_oncall_and_incidents.md",
+        "02_expenses_and_travel.md",
+        "06_onboarding_and_performance.md"
+      ],
+      "refused": true,
+      "correct": false
+    },
+    {
+      "id": "q12",
+      "type": "factual",
+      "question": "Within what time must a SEV1 incident be acknowledged?",
+      "answer": "According to the context, a SEV1 incident must be acknowledged within 5 minutes.",
+      "sources": [
+        "04_oncall_and_incidents.md",
+        "03_security_policy.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q13",
+      "type": "factual",
+      "question": "How many days per year may I work from another country?",
+      "answer": "Based on the provided information, an employee may work from another country for up to 20 working days per calendar year.",
+      "sources": [
+        "05_remote_work.md",
+        "01_leave_policy.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q14",
+      "type": "factual",
+      "question": "What is the yearly learning budget?",
+      "answer": "I don't know based on the provided documents.",
+      "sources": [
+        "06_onboarding_and_performance.md",
+        "02_expenses_and_travel.md",
+        "05_remote_work.md"
+      ],
+      "refused": true,
+      "correct": false
+    },
+    {
+      "id": "q15",
+      "type": "factual",
+      "question": "In which months do performance reviews take place?",
+      "answer": "Performance reviews take place in June and December.",
+      "sources": [
+        "06_onboarding_and_performance.md",
+        "02_expenses_and_travel.md",
+        "04_oncall_and_incidents.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q16",
+      "type": "paraphrase",
+      "question": "My laptop got stolen on the train. Who do I tell and how fast?",
+      "answer": "You should report your lost laptop to security@meridianlabs.example within 1 hour of noticing the loss. The security team will remotely wipe the device.",
+      "sources": [
+        "03_security_policy.md",
+        "06_onboarding_and_performance.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q17",
+      "type": "paraphrase",
+      "question": "Can I expense a glass of wine at a client dinner?",
+      "answer": "I don't know based on the provided documents.",
+      "sources": [
+        "02_expenses_and_travel.md"
+      ],
+      "refused": true,
+      "correct": false
+    },
+    {
+      "id": "q18",
+      "type": "paraphrase",
+      "question": "How many days a week do I have to be physically at the office?",
+      "answer": "According to the provided context, employees are expected to be in the office at least 2 days per week.",
+      "sources": [
+        "05_remote_work.md",
+        "01_leave_policy.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q19",
+      "type": "paraphrase",
+      "question": "Between which hours do I need to be reachable each day?",
+      "answer": "Based on the provided documents, you need to be reachable between 10:00 to 15:00 CET every day. This information can be found in [1], under \"Core hours\".",
+      "sources": [
+        "05_remote_work.md",
+        "06_onboarding_and_performance.md"
+      ],
+      "refused": false,
+      "correct": true
+    },
+    {
+      "id": "q20",
+      "type": "unanswerable",
+      "question": "What is the company policy on bringing dogs to the office?",
+      "answer": "I don't know based on the provided documents.",
+      "sources": [
+        "05_remote_work.md",
+        "02_expenses_and_travel.md",
+        "01_leave_policy.md"
+      ],
+      "refused": true,
+      "correct": true
+    },
+    {
+      "id": "q21",
+      "type": "unanswerable",
+      "question": "How big is the annual bonus for engineers?",
+      "answer": "Based on the provided information, the annual bonus for engineers is €2,000. This can be found in passage [1], which states: \"Employees who refer a successful hire receive a bonus of €2,000, paid after the new hire completes probation.\"",
+      "sources": [
+        "06_onboarding_and_performance.md",
+        "04_oncall_and_incidents.md"
+      ],
+      "refused": false,
+      "correct": false
+    },
+    {
+      "id": "q22",
+      "type": "unanswerable",
+      "question": "What is the stock option vesting schedule?",
+      "answer": "I don't know based on the provided documents.",
+      "sources": [
+        "05_remote_work.md",
+        "04_oncall_and_incidents.md",
+        "01_leave_policy.md",
+        "06_onboarding_and_performance.md"
+      ],
+      "refused": true,
+      "correct": true
+    },
+    {
+      "id": "q23",
+      "type": "unanswerable",
+      "question": "Does the company subsidise gym memberships?",
+      "answer": "I don't know based on the provided documents.",
+      "sources": [
+        "05_remote_work.md",
+        "03_security_policy.md",
+        "02_expenses_and_travel.md"
+      ],
+      "refused": true,
+      "correct": true
+    },
+    {
+      "id": "q24",
+      "type": "unanswerable",
+      "question": "What is the CEO's name?",
+      "answer": "I don't know based on the provided documents.",
+      "sources": [
+        "03_security_policy.md",
+        "05_remote_work.md",
+        "04_oncall_and_incidents.md"
+      ],
+      "refused": true,
+      "correct": true
+    }
+  ]
+}
